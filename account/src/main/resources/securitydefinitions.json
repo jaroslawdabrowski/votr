@@ -1,0 +1,7 @@
+{
+    "oauth2": {
+      "type": "oauth2",
+      "flow": "implicit",
+      "authorizationUrl": "https://security.services.nykredit.dk/security/oauth2/authorize"
+    }
+}
