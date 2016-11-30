@@ -6,9 +6,9 @@
 
     <persistence-unit name="accountPersistenceUnit">
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
-        <jta-data-source>Account</jta-data-source>
-        <class>dk.nykredit.bank.poll.model.Poll</class>
-        <class>dk.nykredit.bank.poll.model.Transaction</class>
+        <jta-data-source>Votes</jta-data-source>
+        <class>dk.nykredit.votes.model.Poll</class>
+        <class>dk.nykredit.votes.model.Vote</class>
         <exclude-unlisted-classes>true</exclude-unlisted-classes>
 
         <properties>

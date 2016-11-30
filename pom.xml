@@ -7,21 +7,13 @@
         <artifactId>service</artifactId>
         <version>4.0.1</version>
     </parent>
-    <!--
-    Fill in the information for your project (used when releasing, so this is really IMPORTANT)...
-    <scm>
-        <connection>scm:git:https://git.tools.nykredit.it/scm/dev/xxx.git</connection>
-        <developerConnection>scm:git:https://git.tools.nykredit.it/scm/dev/xxx.git</developerConnection>
-        <url>https://git.tools.nykredit.it/scm/dev/xxx.git</url>
-        <tag>HEAD</tag>
-    </scm>
-    -->
+
 
     <groupId>dk.nykredit</groupId>
     <artifactId>votr</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    <name>Nykredit REST Archetype Project (change this to match your the purpose of your project)</name>
+    <name>VOTR - voting app</name>
     <packaging>pom</packaging>
 
     <properties>

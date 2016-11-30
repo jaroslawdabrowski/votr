@@ -1,4 +1,4 @@
-package dk.nykredit.bank.account;
+package dk.nykredit.votes;
 
 import static org.junit.Assert.*;
 

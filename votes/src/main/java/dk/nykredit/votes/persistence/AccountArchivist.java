@@ -1,4 +1,4 @@
-package dk.nykredit.bank.account.persistence;
+package dk.nykredit.votes.persistence;
 
 import java.util.List;
 import java.util.Optional;
@@ -11,8 +11,8 @@ import javax.persistence.NoResultException;
 import javax.persistence.PersistenceContext;
 import javax.persistence.TypedQuery;
 
-import dk.nykredit.bank.account.model.Poll;
-import dk.nykredit.bank.account.model.Vote;
+import dk.nykredit.votes.model.Poll;
+import dk.nykredit.votes.model.Vote;
 import dk.nykredit.nic.core.logging.LogDuration;
 
 /**
