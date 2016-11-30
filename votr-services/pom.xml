@@ -16,7 +16,7 @@
     <dependencies>
         <dependency>
             <groupId>dk.nykredit</groupId>
-            <artifactId>account</artifactId>
+            <artifactId>poll</artifactId>
             <version>${project.version}</version>
         </dependency>
 
@@ -221,7 +221,7 @@
                         </configfiles>
                         <files>
                             <file>
-                                <file>${project.basedir}/../src/test/h2-data/account.h2.db</file>
+                                <file>${project.basedir}/../src/test/h2-data/votes.h2.db</file>
                             </file>
                         </files>
                     </configuration>

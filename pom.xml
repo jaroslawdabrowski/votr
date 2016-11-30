@@ -287,7 +287,7 @@
                         </properties>
                         <files>
                             <file>
-                                <file>${project.basedir}/src/test/h2-data/account.h2.db</file>
+                                <file>${project.basedir}/src/test/h2-data/votes.h2.db</file>
                             </file>
                         </files>
                     </configuration>
@@ -409,17 +409,17 @@
                                 <properties>
 								    <cargo.hostname>0.0.0.0</cargo.hostname>
                                     <cargo.logging>medium</cargo.logging>
-                                    <cargo.datasource.datasource.account>
+                                    <cargo.datasource.datasource.poll>
                                         cargo.datasource.id=Account|
                                         cargo.datasource.jndi=Account|
                                         cargo.datasource.driver=org.h2.jdbcx.JdbcDataSource|
                                         cargo.datasource.type=javax.sql.XADataSource|
-                                        cargo.datasource.url=jdbc:h2:file:./account;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE|
+                                        cargo.datasource.url=jdbc:h2:file:./poll;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE|
                                         cargo.datasource.username=sa|
                                         cargo.datasource.password=sa|
                                         cargo.datasoruce.properties=|
                                         cargo.datasource.transactionsupport=XA_TRANSACTION
-                                    </cargo.datasource.datasource.account>
+                                    </cargo.datasource.datasource.poll>
                                 </properties>
                             </configuration>
                         </configuration>
@@ -431,6 +431,6 @@
 
   <modules>
     <module>votr-services</module>
-    <module>account</module>
+    <module>votes</module>
   </modules>
 </project>

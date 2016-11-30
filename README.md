@@ -3,12 +3,12 @@ Nykredit REST Archetype Service
 
 The Nykredit REST archetype service shows how to structure and implement a simple REST based service in Nykredit.
 
-The archetype consists of a simple resource - "account" - which is assembled into one deployable war file. For real
-use the account resource should be replaced with one or more resources as appropriate to the service actually
+The archetype consists of a simple resource - "poll" - which is assembled into one deployable war file. For real
+use the poll resource should be replaced with one or more resources as appropriate to the service actually
 being implemented.
 
-Note that the accounts resource is only meant as an example resource setting up the application infrastructure to
-build a REST service. The modelling of account is purely fictional and a real life production service would include
+Note that the polls resource is only meant as an example resource setting up the application infrastructure to
+build a REST service. The modelling of poll is purely fictional and a real life production service would include
 things as paging of large result sets, correct caching headers, etc.
 
 The exception mappers and part of the application initialization in the ServicesApplication class is candidates for
